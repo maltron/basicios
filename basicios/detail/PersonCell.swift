@@ -1,6 +1,6 @@
 //
 //  PersonCell.swift
-//  PersonAttemp2
+//  basicios
 //
 //  Created by Mauricio Leal on 2/15/18.
 //  Copyright © 2018 Mauricio Leal. All rights reserved.

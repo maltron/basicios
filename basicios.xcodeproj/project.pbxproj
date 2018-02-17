@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		223DBF352035F241001508DC /* PersonAttemp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonAttemp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223DBF352035F241001508DC /* basicios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basicios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		223DBF382035F241001508DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		223DBF3A2035F241001508DC /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		223DBF3F2035F241001508DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		223DBF2C2035F241001508DC = {
 			isa = PBXGroup;
 			children = (
-				223DBF372035F241001508DC /* PersonAttemp2 */,
+				223DBF372035F241001508DC /* basicios */,
 				223DBF362035F241001508DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		223DBF362035F241001508DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				223DBF352035F241001508DC /* PersonAttemp2.app */,
+				223DBF352035F241001508DC /* basicios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		223DBF372035F241001508DC /* PersonAttemp2 */ = {
+		223DBF372035F241001508DC /* basicios */ = {
 			isa = PBXGroup;
 			children = (
 				223DBF4D2035F2FB001508DC /* coredata */,
@@ -66,7 +66,7 @@
 				223DBF412035F241001508DC /* LaunchScreen.storyboard */,
 				223DBF442035F241001508DC /* Info.plist */,
 			);
-			path = PersonAttemp2;
+			path = basicios;
 			sourceTree = "<group>";
 		};
 		223DBF4A2035F257001508DC /* detail */ = {
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		223DBF342035F241001508DC /* PersonAttemp2 */ = {
+		223DBF342035F241001508DC /* basicios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 223DBF472035F241001508DC /* Build configuration list for PBXNativeTarget "PersonAttemp2" */;
+			buildConfigurationList = 223DBF472035F241001508DC /* Build configuration list for PBXNativeTarget "basicios" */;
 			buildPhases = (
 				223DBF312035F241001508DC /* Sources */,
 				223DBF322035F241001508DC /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = PersonAttemp2;
-			productName = PersonAttemp2;
-			productReference = 223DBF352035F241001508DC /* PersonAttemp2.app */;
+			name = basicios;
+			productName = basicios;
+			productReference = 223DBF352035F241001508DC /* basicios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 223DBF302035F241001508DC /* Build configuration list for PBXProject "PersonAttemp2" */;
+			buildConfigurationList = 223DBF302035F241001508DC /* Build configuration list for PBXProject "basicios" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				223DBF342035F241001508DC /* PersonAttemp2 */,
+				223DBF342035F241001508DC /* basicios */,
 			);
 		};
 /* End PBXProject section */
@@ -291,9 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PersonAttemp2/Info.plist;
+				INFOPLIST_FILE = basicios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.nortlam.PersonAttemp2;
+				PRODUCT_BUNDLE_IDENTIFIER = net.nortlam.basicios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,9 +305,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PersonAttemp2/Info.plist;
+				INFOPLIST_FILE = basicios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.nortlam.PersonAttemp2;
+				PRODUCT_BUNDLE_IDENTIFIER = net.nortlam.basicios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		223DBF302035F241001508DC /* Build configuration list for PBXProject "PersonAttemp2" */ = {
+		223DBF302035F241001508DC /* Build configuration list for PBXProject "basicios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				223DBF452035F241001508DC /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		223DBF472035F241001508DC /* Build configuration list for PBXNativeTarget "PersonAttemp2" */ = {
+		223DBF472035F241001508DC /* Build configuration list for PBXNativeTarget "basicios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				223DBF482035F241001508DC /* Debug */,
